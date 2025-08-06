@@ -1,0 +1,10 @@
+{
+  "Welcome! I am your personal secretary.": "Добро пожаловать! Я ваш персональный секретарь.",
+  "View Tasks": "Просмотр задач",
+  "Add Task": "Добавить задачу",
+  "Settings": "Настройки",
+  "Could not understand your request.": "Не удалось понять запрос.",
+  "Task added: {task}": "Задача добавлена: {task}",
+  "Task cancelled.": "Задача отменена.",
+  "No matching task found.": "Совпадающих задач не найдено."
+}

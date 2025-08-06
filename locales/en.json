@@ -1,0 +1,10 @@
+{
+  "Welcome! I am your personal secretary.": "Welcome! I am your personal secretary.",
+  "View Tasks": "View Tasks",
+  "Add Task": "Add Task",
+  "Settings": "Settings",
+  "Could not understand your request.": "Could not understand your request.",
+  "Task added: {task}": "Task added: {task}",
+  "Task cancelled.": "Task cancelled.",
+  "No matching task found.": "No matching task found."
+}
