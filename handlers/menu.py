@@ -1,6 +1,8 @@
+# handlers/menu.py
 from aiogram import Router, types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from utils.lang import _
+from aiogram.filters import Command
+from utils.lang import I18n, _
 
 router = Router()
 
@@ -15,7 +17,7 @@ def get_main_menu(user_lang: str) -> InlineKeyboardMarkup:
     )
     return kb
 
-@router.message(commands=['start', 'menu'])
+@router.message(Command(commands=['start', 'menu']))
 async def start_menu(message: types.Message):
     user_lang = I18n.get_user_lang(message.from_user.id)
     text = _('Welcome! I am your personal secretary.', user_lang)
