@@ -1,8 +1,8 @@
-aiogram==3.0.0b7
-APScheduler==3.9.1
-pydantic==1.10.2
-python-dotenv==1.0.0
-SQLAlchemy==1.4.50
-alembic==1.10.1
-aiosqlite==0.17.0
-python-dateutil==2.8.2
+aiogram>=3.0.0b7,<4.0.0
+APScheduler>=3.9.1
+pydantic>=1.10,<2.0
+python-dotenv>=1.0.0
+SQLAlchemy>=1.4,<2.0
+alembic>=1.10
+aiosqlite>=0.17
+python-dateutil>=2.8
